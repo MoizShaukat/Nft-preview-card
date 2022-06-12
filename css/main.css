@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d192b;
+  color: white;
+}
+
+.container {
+  font-family: Poppins;
+  -webkit-box-shadow: 0 0 50px #030a16;
+          box-shadow: 0 0 50px #030a16;
+  margin-left: 5em;
+  margin-top: 4em;
+  width: 300px;
+  height: 550px;
+  border-radius: 1rem;
+  padding: 1em;
+  padding-left: 23px;
+  padding-right: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #14253d;
+}
+
+.container .hero-img .nft-art {
+  width: 300px;
+  height: 280px;
+  border-radius: 0.6em;
+}
+
+.container .hero-img .nft-art:hover {
+  color: #00fff7;
+  opacity: 70%;
+}
+
+.container .heading {
+  font-weight: 600;
+}
+
+.container .heading:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.container .info {
+  opacity: 60%;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.container .container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .container-2 .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+
+.container .container-2 .price .eth-icon {
+  width: 0.7em;
+  height: 1.2em;
+  margin: 0;
+  margin-right: 7px;
+}
+
+.container .container-2 .price .eth-price {
+  margin: 0;
+  font-size: 15px;
+  color: #00fff7;
+  font-weight: 600;
+  padding-bottom: 0.2px;
+}
+
+.container .container-2 .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+
+.container .container-2 .days .clock {
+  width: 1.1em;
+  height: 1.2em;
+  margin: 0;
+  margin-right: 7px;
+}
+
+.container .container-2 .days .remaining-days {
+  font-size: 14px;
+  margin: 0;
+  opacity: 70%;
+  font-weight: 400;
+}
+
+.container .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.122);
+  margin-top: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .footer .dev {
+  width: 2em;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 1.2rem;
+  margin-right: 15px;
+}
+
+.container .footer .footer-credits {
+  font-size: 14px;
+  padding-top: 1em;
+  opacity: 70%;
+}
+
+.container .footer .footer-credits .name {
+  color: white;
+  opacity: 100%;
+}
+
+.container .footer .footer-credits .name:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

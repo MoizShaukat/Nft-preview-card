@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+}
+
+.container {
+    font-family: Poppins;
+    box-shadow: 0 0 50px hsl(218, 76%, 5%);
+    margin-left: 5em;
+    margin-top: 4em;
+    width: 300px;
+    height: 550px;
+    border-radius: 1rem;
+    padding: 1em;
+    padding-left: 23px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    //align-items: center;
+    background-color: hsl(216, 50%, 16%);
+
+    .hero-img .nft-art {
+        width: 300px;
+        height: 280px;
+        border-radius: 0.6em;
+
+        &:hover {
+            color: hsl(178, 100%, 50%);
+            opacity: 70%;
+        }
+    }
+
+    .heading {
+        font-weight: 600;
+        &:hover {
+            color: hsl(178, 100%, 50%);
+            cursor: pointer;
+        }
+    }
+
+    .info {
+        opacity: 60%;
+        font-size: 16px;
+        line-height: 1.5em;
+        font-weight: lighter;
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: space-between;
+
+        .price {
+            display: flex;
+            white-space: nowrap;
+            .eth-icon {
+                width: 0.7em;
+                height: 1.2em;
+                margin: 0;
+                margin-right: 7px;
+            }
+            .eth-price {
+                //padding-top: 0.08em;
+                margin: 0;
+                font-size: 15px;
+                color: hsl(178, 100%, 50%);
+                font-weight: 600;
+                padding-bottom: 0.2px;
+            }
+        }
+        .days {
+            display: flex;
+            white-space: nowrap;
+            .clock {
+                width: 1.1em;
+                height: 1.2em;
+                margin: 0;
+                margin-right: 7px;
+            }
+            .remaining-days {
+                font-size: 14px;
+                //padding-top: 0.1em;
+                margin: 0;
+                opacity: 70%;
+                font-weight: 400;
+            }
+        }
+    }
+    .footer {
+        border-top: 1px solid rgba(255, 255, 255, 0.122);
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: flex-start;
+
+        .dev {
+            width: 2em;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin-top: 1.2rem;
+            margin-right: 15px;
+        }
+        .footer-credits {
+            font-size: 14px;
+            padding-top: 1em;
+            opacity: 70%;
+
+            .name {
+                color: white;
+                opacity: 100%;
+
+                &:hover {
+                    color: hsl(178, 100%, 50%);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
